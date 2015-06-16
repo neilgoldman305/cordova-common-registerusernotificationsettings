@@ -21,6 +21,9 @@
  * @APPPLANT_LICENSE_HEADER_END@
  */
 
+#ifndef __UIApplicationRegisterUserNotificationSettings__
+#define __UIApplicationRegisterUserNotificationSettings__
+
 #import "AppDelegate.h"
 #import <Availability.h>
 
@@ -35,3 +38,5 @@ extern NSString* const UIApplicationRegisterUserNotificationSettings;
 #endif
 
 @end
+
+#endif
